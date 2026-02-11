@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Songs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Songs</h1>
+  <p>Songs that radiate the happiness of the memories we've had for years.</p>
+
+  <!-- SONG 1 -->
+  <div class="song-block">
+    <div class="vinyl" onclick="togglePanel('song1')"></div>
+
+    <div id="song1" class="song-panel">
+      <h3>lover girl</h3>
+      <p>This song feels soft and dreamy. I've always loved Laufey, and I've always had you in mind when I listen to her songs. Platonically and romantically. But being honest, mostly platonically. It reminds me of the times we'd reconnect after not contacting each other for a while due to several reasons. But somehow, no matter the reason, we still talked so casually, and that itself was a warm feeling of joy in my year that was filled with the cold. It reminds me that I'm capable of holding unto the softness of our friendship, even in the small moments I feel cold.
+</p>
+    </div>
+  </div>
+
+  <!-- SONG 2 -->
+  <div class="song-block">
+    <div class="vinyl" onclick="togglePanel('song2')"></div>
+
+    <div id="song2" class="song-panel">
+      <h3>promise</h3>
+      <p>This song used to feel sad to feel sad to me, but over time it became something comforting. Like a quiet reassurance I didn't expect. It reminds me of how we understood each other in ways that didn't need constant talking, and how natural it felt to talk with you once more. I'm grateful I got to experience that kind of steady warmth. This song really emphasizes to my mind on the part of our friendship where we learned to grow into different versions of ourselves, and learned to let go with grace. It reminds me of how far we've both come, and I'm genuinely proud of that growth. So yes, I've done the math, and the only solution is to let go. Grabe talaga, ang galing mo, mathematician yarn?</p>
+    </div>
+  </div>
+
+  <!-- SONG 3 -->
+  <div class="song-block">
+    <div class="vinyl" onclick="togglePanel('song3')"></div>
+
+    <div id="song3" class="song-panel">
+      <h3>pagtingin</h3>
+      <p>'Umaasa pa rin' is a line that stuck with me from this song. Not because I want you back or I'm waiting for you to come back. But because I hold onto our memories like it's apart of my own heart. This song brings back the way I saw you as my best friend. 'Sana di magbago ang pagtingin' Sana makita mo pa rin ako bilang kaibigan mo, masasandalan mo kapag walang wala ka na. Kapag tinitignan ko sa isip ko yung mga moments natin na magkasama, kakaunti man at mabilis, it really stuck to me. Sana di magbago ang pagtingin mo sakin, looking back, I'm grateful for the past versions of us. This song reminds me that there's always hope in everything, and because of it, I've grown into a more optimistic person.
+</p>
+    </div>
+  </div>
+
+  <!-- SONG 4 -->
+  <div class="song-block">
+    <div class="vinyl" onclick="togglePanel('song4')"></div>
+
+    <div id="song4" class="song-panel">
+      <h3>sparks</h3>
+      <p>'I saw sparks' I saw it in your eyes, and I saw it in mine. We had different sparks, but so similar too. I listen to this song, reminiscing our friendship, our laughter, and everything entangled within the memories. I saw the sparks of passion in your eyes as you talked about the nerdiest things I've ever seen in a man. I've never seen someone talk about math and science in such a happy way, I've never seen someone talk about the lore of a certain thing with such excited eyes. When you talk, I can hear the emotions in your voice, and that's how I saw sparks. 'I know I was wrong, and I won't let you down' We had mistakes, we had misunderstandings, and that's where we saw the need to change. The changed versions of us became so real that we knew what needed to happen. It was the best decision, and I'm glad we committed to growing even more. Those sparks, yours and mine, will always be something I'm grateful for.
+</p>
+    </div>
+  </div>
+
+  <!-- SONG 5 -->
+  <div class="song-block">
+    <div class="vinyl" onclick="togglePanel('song5')"></div>
+
+    <div id="song5" class="song-panel">
+      <h3>i thought i saw your face today</h3>
+      <p>‘I thought I saw your face today’ really captures how it feels whenever something reminds me of you in the happiest way. I’d see handwriting that looks like yours and remember the times you taught me math. I’d see a curly‑haired guy with glasses and think of you. I’d see a Hirono and remember how much you wanted one. Even glancing at my Bible brings back the memory of us talking on the phone during fasting week.
+
+Chemistry equations remind me of how fascinated you were with them. Someone whose eyes disappear when they smile reminds me of you. And sometimes I hear a laugh that sounds just like yours. I'd watch anime and it reminds me of how I'd watch all your recommendations to know what you love about them.
+
+These moments don’t hurt anymore, they just show up softly, like little echoes of someone who mattered to me once. And I’m grateful for every version of you that I got to know.</p>
+    </div>
+  </div>
+
+  <script>
+    function togglePanel(id) {
+      const panel = document.getElementById(id);
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
